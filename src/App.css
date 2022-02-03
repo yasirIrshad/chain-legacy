@@ -1,4 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+/* RoadMap Styling */
+.roadMaoContainer
+{
+  background: #001233;
+}
+.borderRight
+{
+   border-right:2px solid #6ADAFF;
+}
+.borderBottom
+{
+   border-bottom:2px solid #6ADAFF;
+}
+.boxSquare
+{
+  border: 2px solid aqua;
+  height: 50px;
+  width: 50px;
+  transform: rotate(45deg);
+  background: #001233;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: -26px;
+  right: -38px;
+}
+.boxEven
+{
+  top: -26px;
+  right: -38px;
+}
+.boxOdd
+{
+  top: -26px;
+  left: -38px;
+}
+.boxText
+{
+transform: rotate(-45deg);
+}
+.roadMapDesc
+{
+  font-family: 'Poppins', sans-serif;
+}
+/* faq heading */
+.faq
+{
+  height: 200px;
+  background-color:#001233;
+  background-image: url('./assets/faqimage.png');
+  background-size: 100% 100%;
+  background-position: center;
+  text-align: center;
+}
+/* Accordion Styling(FAQ) */
+.accordionBackground
+{
+  background: linear-gradient(#0c487f 50%,#001233);
+}
+.accordionHeader button
+{
+  background: #001233 !important;
+  display: unset !important;
+  text-align: center;
+  color: white !important;
+  border: 1px solid #6ADAFF;
+  box-shadow: 0px 3px 36px rgba(106, 218, 255 ,38%);
+  text-transform: capitalize;
+}
+.description
+{
+  font-family: 'Poppins', sans-serif;
+}
+/* Footer Styling */
+.footer {
+  background: #001233
+}
+.iconCircle {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: #6ADAFF;
+  font-size: 24px;
+  color: #001233;
+}
 
+.iconCircle:hover {
+  background-color: white;
+  color: #6ADAFF;
+  cursor: pointer;
+}
+
+.iconContainerWidth {
+  width: 15%;
+  min-width: 125px
+}
+
+.footerNavBorder {
+  border-top: 2px solid #6ADAFF;
+}
+
+.footerLinks {
+  color: white;
+}
+
+.footerLinks:hover {
+  color: #6ADAFF;
+}
+
+.footer-image-container {
+  width: 346px
+}
  /* "headersection" */
 .bakcolor{
   position: absolute;
