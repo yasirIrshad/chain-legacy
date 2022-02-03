@@ -37,16 +37,19 @@
     display: flex;
       justify-items: center;
       align-items: center;
-    
+      margin: 0 190px 0 0;
   
   }
+ 
   
   
-  
-  .beforeclas{
-    position: relative;
-  }
-  .beforeclas::after {
+  .beforeclas {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #6adaff;
+}
+  /* .beforeclas::after {
     content: "";
     position: absolute;
     width: 121%;
@@ -54,7 +57,7 @@
     top: 62px;
     background-color: #6ADAFF;
     right: 1%;
-  }
+  } */
 /* bannersection */
 
   .rightbanersection{
@@ -135,12 +138,12 @@
 
 }
 .introleftsection {
-  margin-top: 200px;
-  margin-bottom: 300px;
+  margin-top: 72px;
+  margin-bottom: 140px;
 }
 
 .introrightsection {
-  margin-top: 70px;
+  margin-top: 202px;
   margin-bottom: 140px;
 }
 /* introsecttion2 */
