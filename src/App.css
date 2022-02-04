@@ -287,3 +287,19 @@ transform: rotate(-45deg);
   flex-wrap: wrap;
 }
 
+
+
+
+
+/* interpage */
+
+.introEctionpage{
+  width: 100%;
+  background-color: #001233;
+}
+.introContainerWidth{
+  width: 90%;
+  margin-top: 101px;
+
+
+}
