@@ -6,11 +6,11 @@ import {Image} from 'react-bootstrap';
 
 const FooterComponent = () => {
     return (
-        <div className="footer container-fluid px-5">
+        <div className="footer container-fluid px-5 pb-4">
             <div className="px-5">
                 <div className="d-flex align-items-center flex-column mb-3">
                     <div className='footer-image-container' >
-                        <Image className="img-fluid" src={footerImage} />
+                        <Image className="img-fluid mb-5" src={footerImage} />
                     </div>
                     <div className="d-flex justify-content-around iconContainerWidth">
                         <div className="iconCircle d-flex  align-items-center justify-content-center">
