@@ -40,7 +40,7 @@ const HeaderComponent = () => {
                     </Nav> */}
                 </Navbar.Collapse>
             </Container>
-        </Navbar >
+        </Navbar>
 
 
 

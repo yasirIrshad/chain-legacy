@@ -384,6 +384,7 @@
 .introEctionpage {
   width: 100%;
   background-color: #001233;
+  padding: 0 0 34px 0;
 }
 
 .introContainerWidth {
@@ -405,10 +406,45 @@
   font-weight: bold;
   line-height: 65px;
   color: white;
+  margin-top: 127px;
 }
 .intropayra {
   font-size: 16px;
   font-family: 'Poppins';
   line-height: 25px;
   color: white;
+  margin-top: 32px;
+  
+
 }
+.imgdiv1 {
+  width: 300px;
+  
+}
+
+.intrimg{
+  transform: rotate(-15deg);
+    width: 100%;
+}
+.inmain{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+  }
+  .introhead2 {
+    font-size: 46px;
+    font-weight: bold;
+    font-family: orbitron;
+    color: white;
+}
+.inmain2 {
+  margin-top: 210px;
+}
+
+.intropayra2 {
+    font-size: 16px;
+    font-family: 'Poppins';
+    line-height: 25px;
+    color: white;
+}
+  
