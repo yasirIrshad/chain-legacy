@@ -5,11 +5,22 @@ import RoadmapComponent from '../../component/RoadmapComponent';
 import FooterComponent from '../../component/FooterComponent';
 import { roadMap } from '../../constant/Accordion';
 
+
+
+const road = [
+    {
+
+        title: "Roadmap",
+
+    },
+]
 function RoadmapPage() {
 
+
     return <>
-    <HeaderComponent />
-        <Banner /><div className="roadMaoContainer">
+        <HeaderComponent />
+        <Banner data={road} />
+        <div className="roadMaoContainer">
             <h1 className="text-white text-center mb-5">Chain Legacy Roadmap</h1>
             <RoadmapComponent data={roadMap} />
             <FooterComponent />

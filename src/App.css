@@ -392,3 +392,23 @@
 
 
 }
+.imgdiv {
+  margin: 0 0 0 35.1px;
+}
+.imgdiv:hover{
+  transform: scale(1.2);
+  transition: ease 1s;
+}
+.introhead {
+  font-size: 46px;
+  font-family: Orbitron;
+  font-weight: bold;
+  line-height: 65px;
+  color: white;
+}
+.intropayra {
+  font-size: 16px;
+  font-family: 'Poppins';
+  line-height: 25px;
+  color: white;
+}
