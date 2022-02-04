@@ -1,10 +1,10 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 function AccordionComponent({data}) {
 
-    return <ScrollAnimation animateIn='fadeIn'>  <div className="container-fluid d-flex justify-content-center py-5">
+    return <div className="container-fluid d-flex justify-content-center py-5">
         <div className="w-75 mb-5">
         <Accordion  >
         {data?.map((data,index)=>{
@@ -17,7 +17,7 @@ function AccordionComponent({data}) {
         })}
         </Accordion>
         </div>
-    </div> </ScrollAnimation>;
+    </div>
 }
 
 export default AccordionComponent;

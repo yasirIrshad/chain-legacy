@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Cover from '../../assets/cover.png'
 import bannerimage from '../../assets/bannerimage.png';
 import Image from 'react-bootstrap/Image'
-import ScrollAnimation from 'react-animate-on-scroll';
+
 
 
 
@@ -27,13 +27,12 @@ const Banner = ({ data }) => {
                                 <Col lg={6} md={12}>
                                     <div className='rightbanersection' >
                                         <div className='bannerImgdiv' >
-                                            <ScrollAnimation animateIn='flipInY'
-                                                animateOut='flipOutY' duration={3}>
+                                           
                                                 <Image className='bannerImg'
                                                     src={data?.image}
 
                                                 />
-                                            </ScrollAnimation>
+                                           
                                         </div>
                                     </div>
                                 </Col> : null}
