@@ -2,7 +2,8 @@ import React from 'react';
 import footerImage from '../../assets/image.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import {Image} from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const FooterComponent = () => {
     return (
@@ -23,9 +24,9 @@ const FooterComponent = () => {
                 </div>
                 <div className="d-flex justify-content-center footerNavBorder">
                     <ul className="list-unstyled d-flex justify-content-between flex-sm-row flex-column flex-wrap mt-4 mb-5">
-                        <li className="footerLinks">Introduction</li>
-                        <li className="footerLinks mx-0 mx-sm-5">Roadmap</li>
-                        <li className="footerLinks">FAQ</li>
+                        <Link className="text-decoration-none" to="/intro"> <li className="footerLinks">Introduction</li></Link>
+                        <Link className="text-decoration-none" to="/roadmap"> <li className="footerLinks mx-0 mx-sm-5">Roadmap</li></Link>
+                        <Link className="text-decoration-none" to="/faq"><li className="footerLinks">FAQ</li></Link>
                     </ul>
                 </div>
             </div>
