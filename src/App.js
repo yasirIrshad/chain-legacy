@@ -8,9 +8,11 @@ import RoadmapComponent from './component/RoadmapComponent';
 import { accordionInfo,roadMap } from './constant/Accordion'
 import FaqPage from './screens/FAQ';
 import RoadmapPage from './screens/Roadmap';
-
+import HomeScreen from './screens/Home';
+import Introductionpage from './screens/Introduction';
 
 const App = () => {
+
   return (
     <>
       {/* <HeaderComponent />
@@ -28,6 +30,7 @@ const App = () => {
       
       {/* <FaqPage/> */}
       <RoadmapPage/>
+      <Introductionpage />
 
     </>
   )

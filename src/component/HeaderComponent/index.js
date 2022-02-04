@@ -24,13 +24,14 @@ const HeaderComponent = () => {
                             <Nav.Link href="#home" className='ankrtext'>Introduction</Nav.Link>
                             <Nav.Link href="#link" className='ankrtext'>Roadmap</Nav.Link>
                             <Nav.Link href="#link" className='ankrtext'>FAQ</Nav.Link>
-                            <Nav className='Navsec2'  >
-                                <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
-                                <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
-                                <Button className='mintbutt' variant="primary">Mint</Button>
-                            </Nav>
 
                         </Nav>
+                        <Nav className='Navsec2'  >
+                            <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
+                            <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
+                            <Button className='mintbutt' variant="primary">Mint</Button>
+                        </Nav>
+
                     </div>
 
                     {/* <Nav >

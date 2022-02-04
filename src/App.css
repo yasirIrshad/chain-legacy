@@ -195,6 +195,64 @@
   right: 1%;
 }
 
+
+  width: 100%;}
+  .ankrtext {
+    color: white !important;
+    font-size: 18px !important;
+    font-family: 'Orbitron';
+  }
+  .icons {
+    background-color: #6ADAFF ;
+     width:44px;
+     height:44px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+      border-radius: 100%;
+  }
+  .mintbutt {
+    width: 122px;
+      height: 44px;
+    background-color: #6ADAFF;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Orbitron';
+    margin: 0 0 0 9px;
+  }
+  .Navsec2 {
+    margin: 0 0 0 96px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .Navsec1{
+    display: flex;
+      justify-items: center;
+      align-items: center;
+      margin: 0 190px 0 0;
+  
+  }
+ 
+  
+  
+  .beforeclas {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #6adaff;
+}
+  /* .beforeclas::after {
+    content: "";
+    position: absolute;
+    width: 121%;
+    height: 1px;
+    top: 62px;
+    background-color: #6ADAFF;
+    right: 1%;
+  } */
+
 /* bannersection */
 
 .rightbanersection {
@@ -282,12 +340,12 @@
 }
 
 .introleftsection {
-  margin-top: 200px;
-  margin-bottom: 300px;
+  margin-top: 72px;
+  margin-bottom: 140px;
 }
 
 .introrightsection {
-  margin-top: 70px;
+  margin-top: 202px;
   margin-bottom: 140px;
 }
 
@@ -315,4 +373,21 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+
+
+
+
+/* interpage */
+
+.introEctionpage{
+  width: 100%;
+  background-color: #001233;
+}
+.introContainerWidth{
+  width: 90%;
+  margin-top: 101px;
+
+
 }
