@@ -6,21 +6,28 @@ import FooterComponent from './component/FooterComponent';
 import AccordionComponent from './component/AccordionComponent';
 import RoadmapComponent from './component/RoadmapComponent';
 import { accordionInfo,roadMap } from './constant/Accordion'
+import FaqPage from './screens/FAQ';
+import RoadmapPage from './screens/Roadmap';
+
 
 const App = () => {
   return (
     <>
-      <HeaderComponent />
+      {/* <HeaderComponent />
       <Banner />
       <Introduction />
       <div className="roadMaoContainer">
+      <h1 className="text-white text-center mb-5">Chain Legacy Roadmap</h1>
         <RoadmapComponent data={roadMap} />
       </div>
-      <div className="faq m-0 pb-4 text-white d-flex justify-content-center align-items-end">
-        <h1>F.A.Q</h1>
-      </div>
-      <AccordionComponent data={accordionInfo} />
-      <FooterComponent />
+      <div className="containerFAQ">
+        <h1 className="text-white mt-5">F.A.Q</h1>
+        <AccordionComponent data={accordionInfo} />
+        <FooterComponent/>
+      </div> */}
+      
+      {/* <FaqPage/> */}
+      <RoadmapPage/>
 
     </>
   )

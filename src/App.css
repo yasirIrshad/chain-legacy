@@ -4,22 +4,23 @@
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
 }
+
 /* RoadMap Styling */
-.roadMaoContainer
-{
+.roadMaoContainer {
   background: #001233;
+  padding-top: 182px;
 }
-.borderRight
-{
-   border-right:2px solid #6ADAFF;
+
+.borderRight {
+  border-right: 4px solid #6ADAFF;
 }
-.borderBottom
-{
-   border-bottom:2px solid #6ADAFF;
+
+.borderBottom {
+  border-bottom: 4px solid #6ADAFF;
 }
-.boxSquare
-{
-  border: 2px solid aqua;
+
+.boxSquare {
+  border: 4px solid #6ADAFF;
   height: 50px;
   width: 50px;
   transform: rotate(45deg);
@@ -30,57 +31,70 @@
   top: -26px;
   right: -38px;
 }
-.boxEven
-{
+
+.boxEven {
   top: -26px;
-  right: -38px;
+  right: -39px;
 }
-.boxOdd
-{
+
+.boxOdd {
   top: -26px;
-  left: -38px;
+  left: -39px;
 }
-.boxText
-{
-transform: rotate(-45deg);
+
+.boxText {
+  transform: rotate(-45deg);
 }
-.roadMapDesc
-{
+
+.roadMapDesc {
   font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .boxEven {
+    top: -51px;
+  }
+
+  .boxOdd {
+    top: -51px;
+  }
+
+  .borderRight {
+    border-right: none;
+  }
+}
+
 /* faq heading */
-.faq
-{
-  height: 200px;
-  background-color:#001233;
+.containerFAQ {
+  padding-top: 15rem;
+  background-color: #001233;
   background-image: url('./assets/faqimage.png');
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: center top;
   text-align: center;
 }
+
 /* Accordion Styling(FAQ) */
-.accordionBackground
-{
-  background: linear-gradient(#0c487f 50%,#001233);
-}
-.accordionHeader button
-{
+.accordionHeader button {
   background: #001233 !important;
   display: unset !important;
   text-align: center;
   color: white !important;
   border: 1px solid #6ADAFF;
-  box-shadow: 0px 3px 36px rgba(106, 218, 255 ,38%);
+  box-shadow: 0px 3px 36px rgba(106, 218, 255, 38%);
   text-transform: capitalize;
-}
-.description
-{
   font-family: 'Poppins', sans-serif;
 }
+
+.description {
+  font-family: 'Poppins', sans-serif;
+}
+
 /* Footer Styling */
 .footer {
-  background: #001233
+  margin-top: 100px;
 }
+
 .iconCircle {
   height: 35px;
   width: 35px;
@@ -116,88 +130,101 @@ transform: rotate(-45deg);
 .footer-image-container {
   width: 346px
 }
- /* "headersection" */
-.bakcolor{
+
+/* "headersection" */
+.bakcolor {
   position: absolute;
-  width: 100%;}
-  .ankrtext {
-    color: white !important;
-    font-size: 18px !important;
-    font-family: 'Orbitron';
-  }
-  .icons {
-    background-color: #6ADAFF ;
-     width:44px;
-     height:44px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-      border-radius: 100%;
-  }
-  .mintbutt {
-    width: 122px;
-      height: 44px;
-    background-color: #6ADAFF;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Orbitron';
-    margin: 0 0 0 9px;
-  }
-  .Navsec2 {
-    margin: 0 0 0 96px;
-    display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .Navsec1{
-    display: flex;
-      justify-items: center;
-      align-items: center;
-    
-  
-  }
-  
-  
-  
-  .beforeclas{
-    position: relative;
-  }
-  .beforeclas::after {
-    content: "";
-    position: absolute;
-    width: 121%;
-    height: 1px;
-    top: 62px;
-    background-color: #6ADAFF;
-    right: 1%;
-  }
+  width: 100%;
+}
+
+.ankrtext {
+  color: white !important;
+  font-size: 18px !important;
+  font-family: 'Orbitron';
+}
+
+.icons {
+  background-color: #6ADAFF;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.mintbutt {
+  width: 122px;
+  height: 44px;
+  background-color: #6ADAFF;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Orbitron';
+  margin: 0 0 0 9px;
+}
+
+.Navsec2 {
+  margin: 0 0 0 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navsec1 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+
+}
+
+
+
+.beforeclas {
+  position: relative;
+}
+
+.beforeclas::after {
+  content: "";
+  position: absolute;
+  width: 121%;
+  height: 1px;
+  top: 62px;
+  background-color: #6ADAFF;
+  right: 1%;
+}
+
 /* bannersection */
 
-  .rightbanersection{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .leftbanerservtion{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  .bansection {
-    width: 100%;
-    padding: 320px 0 240px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.rightbanersection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.bannerImgdiv{
+
+.leftbanerservtion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bansection {
+  width: 100%;
+  padding: 320px 0 240px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bannerImgdiv {
   width: 300px;
   margin-top: 30px;
 }
+
 .bansection .row {
   display: flex;
   flex-wrap: wrap;
@@ -206,9 +233,7 @@ transform: rotate(-45deg);
 
 .bannerImg {
   width: 100%;
-  transform: rotate(
-6deg
-);
+  transform: rotate(6deg);
   background: rgb(255 255 255 / 15%);
   border: 4px solid rgb(106 218 255 / 60%);
   border-radius: 20px;
@@ -224,6 +249,7 @@ transform: rotate(-45deg);
   font-family: Orbitron;
   margin-bottom: 38px;
 }
+
 .bparagraph {
   font-size: 16px;
   color: white;
@@ -231,11 +257,13 @@ transform: rotate(-45deg);
   line-height: 25px;
   padding: 0 0 0 70px;
 }
+
 /* introductionsection */
 .introduction {
   background-color: #001233;
 }
-.Iheading{
+
+.Iheading {
   font-size: 46px;
   font-weight: bold;
   line-height: 65px;
@@ -244,13 +272,15 @@ transform: rotate(-45deg);
   margin-bottom: 21px;
 
 }
-.Iparagraph{
+
+.Iparagraph {
   font-size: 16px;
   color: white;
   font-family: "poppins";
   line-height: 25px;
 
 }
+
 .introleftsection {
   margin-top: 200px;
   margin-bottom: 300px;
@@ -260,16 +290,18 @@ transform: rotate(-45deg);
   margin-top: 70px;
   margin-bottom: 140px;
 }
+
 /* introsecttion2 */
-.introlefttsection2{
+.introlefttsection2 {
   margin-top: 140px;
 
 }
+
 .introRighttsection2 {
   margin-top: 50px;
 }
 
-.focusheading{
+.focusheading {
   font-size: 46px;
   font-weight: bold;
   line-height: 65px;
@@ -277,10 +309,10 @@ transform: rotate(-45deg);
   font-family: Orbitron;
 
 }
+
 .intrRow {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-
