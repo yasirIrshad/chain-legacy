@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import trio from '../../assets/trio.png';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 const Introduction = () => {
     return (
         <div className='introduction'>
@@ -10,23 +10,25 @@ const Introduction = () => {
                 <Row>
                     <Col lg={6}>
                         <div className='introleftsection'>
-                          
+                            < ScrollAnimation animateIn='bounceInLeft' duration={3}  >
                                 <Image
                                     src={trio}
                                 />
-                           
+                            </ScrollAnimation>
+
                         </div>
 
                     </Col>
 
                     <Col lg={6}>
-                        
-                            <div className='introrightsection'>
+
+                        <div className='introrightsection'>
+                            < ScrollAnimation animateIn='bounceInRight' duration={3} >
                                 <h1 className='Iheading'>Introduction</h1>
                                 <p className='Iparagraph'>Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art.</p>
+                            </ScrollAnimation>
+                        </div>
 
-                            </div>
-                       
                     </Col>
                 </Row>
                 <Row class="intrRow">

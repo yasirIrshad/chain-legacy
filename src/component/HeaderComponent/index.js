@@ -29,7 +29,7 @@ const HeaderComponent = () => {
                         <Nav className='Navsec2'>
                             <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
                             <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
-                            <Button className='mintbutt' variant="primary">Mint</Button>
+                            <Button className='mintbutt'>Mint</Button>
                         </Nav>
 
                     </div>

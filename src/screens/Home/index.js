@@ -7,7 +7,7 @@ import AccordionComponent from '../../component/AccordionComponent/index';
 import RoadmapComponent from '../../component/RoadmapComponent/index';
 import { accordionInfo, roadMap } from '../../constant/Accordion/index'
 import bannerimage from '../../assets/bannerimage.png'
-
+import ScrollToTopOnMount from '../../scroll';
 const heading = [
     {
 
@@ -19,6 +19,7 @@ const heading = [
 
 const HomeScreen = () => {
     return (<>
+        <ScrollToTopOnMount />
         <HeaderComponent />
         <Banner data={heading} />
         <Introduction />

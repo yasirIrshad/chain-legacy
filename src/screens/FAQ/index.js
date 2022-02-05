@@ -4,6 +4,7 @@ import Banner from '../../component/BannerComponent';
 import FooterComponent from '../../component/FooterComponent';
 import HeaderComponent from '../../component/HeaderComponent';
 import { accordionInfo } from '../../constant/Accordion';
+import ScrollToTopOnMount from '../../scroll';
 const hed = [
     {
 
@@ -18,6 +19,7 @@ const hed = [
 function FaqPage() {
 
     return <>
+        <ScrollToTopOnMount />
         <HeaderComponent />
         <Banner data={hed} />
 

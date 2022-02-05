@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import introimage from '../../assets/introimage.png'
 import FooterComponent from '../../component/FooterComponent';
-
+import ScrollToTopOnMount from '../../scroll';
 const introduction = [
     {
 
@@ -25,6 +25,7 @@ const Introductionpage = () => {
     return (
 
         <>
+            <ScrollToTopOnMount />
             <div className='introEctionpage'>
                 <HeaderComponent />
                 <Banner data={introduction} />

@@ -4,7 +4,7 @@ import Banner from '../../component/BannerComponent';
 import RoadmapComponent from '../../component/RoadmapComponent';
 import FooterComponent from '../../component/FooterComponent';
 import { roadMap } from '../../constant/Accordion';
-
+import ScrollToTopOnMount from '../../scroll';
 
 
 const road = [
@@ -18,6 +18,7 @@ function RoadmapPage() {
 
 
     return <>
+        <ScrollToTopOnMount />
         <HeaderComponent />
         <Banner data={road} />
         <div className="roadMaoContainer">

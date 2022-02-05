@@ -9,6 +9,7 @@
 .roadMaoContainer {
   background: #001233;
   padding-top: 182px;
+  border-top: 1px solid #001233;
 }
 
 .borderRight {
@@ -72,6 +73,7 @@
   background-size: cover;
   background-position: center top;
   text-align: center;
+  border: 1px solid #001233;
 }
 
 /* Accordion Styling(FAQ) */
@@ -105,8 +107,9 @@
 }
 
 .iconCircle:hover {
-  background-color: white;
-  color: #6ADAFF;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  color: #ffff;
   cursor: pointer;
 }
 
@@ -206,6 +209,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 100%;
+}
+.icons:hover{
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+  color: #ffff;
 }
 
 .mintbutt {
@@ -314,7 +322,7 @@
   color: white;
   font-family: "poppins";
   line-height: 25px;
-  padding: 0 0 0 70px;
+  padding: 0 0 0 69px;
 }
 
 /* introductionsection */
