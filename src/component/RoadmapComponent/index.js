@@ -6,7 +6,7 @@ function RoadmapComponent({ data }) {
 
 
     return <div>
-        <Container className="w-75 py-5">
+        <Container className="w-75 pt-5">
             <Row>
                 {data.map((data, index) => {
                     if (index % 2 == 0) {

@@ -29,8 +29,8 @@ const Introductionpage = () => {
             <div className='introEctionpage'>
                 <HeaderComponent />
                 <Banner data={introduction} />
-                <Container className="d-flex justify-content-center flex-wrap ">
-                    <div className=" introContainerWidth   d-flex justify-content-between  " >
+                <Container className="d-flex justify-content-center  ">
+                    <div className=" introContainerWidth   d-flex justify-content-between" >
 
                         {
                             imagloop.map((data, index) => {

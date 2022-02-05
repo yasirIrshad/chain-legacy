@@ -15,7 +15,7 @@ const Banner = ({ data }) => {
                 <Row>
                     {data?.map((data, index) => {
                         return <>
-                            <Col lg={data.description ? 6 : null} md={data.description ? 12 : null}>
+                            <Col lg={data.description ? 6 : null} md={data.description ? 6 : null}>
                                 <div className='leftbanerservtion'>
                                     <h1 className='bheading'>{data?.title}</h1>
                                     <p className='bparagraph'>{data?.description}</p>
@@ -24,19 +24,21 @@ const Banner = ({ data }) => {
 
                             </Col>
                             {data.image ?
-                                <Col lg={6} md={12}>
+                                <Col lg={6} md={6}>
                                     <div className='rightbanersection' >
-                                        <div className='bannerImgdiv' >
-                                            <ScrollAnimation animateIn='flipInY'
+                                    <ScrollAnimation animateIn='flipInY'
                                                 duration={5}
                                             >
+                                        <div className='bannerImgdiv' >
+                                            
                                                 <Image className='bannerImg'
                                                     src={data?.image}
 
                                                 />
-                                            </ScrollAnimation>
+                                            
 
                                         </div>
+                                        </ScrollAnimation>
                                     </div>
                                 </Col> : null}
 
