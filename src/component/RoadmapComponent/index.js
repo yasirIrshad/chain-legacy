@@ -7,10 +7,10 @@ function RoadmapComponent({ data }) {
 
     return <div>
         <Container className="w-75 pt-5">
-            <Row>
+          
                 {data.map((data, index) => {
                     if (index % 2 == 0) {
-                        return <div key={index}>
+                        return  <Row key={index}>
                         <Col xs={12} md={6} className="borderRight">
                             <div className="borderBottom mx-3" >
                                 <h6 className="text-info">{data.date}</h6>
@@ -26,10 +26,10 @@ function RoadmapComponent({ data }) {
                             <Col xs={0} md={6} className="d-md-block d-none">
 
                             </Col>
-                        </div>
+                            </Row>
                     }
                     else {
-                        return <div key={index}>
+                        return <Row key={index}>
                             <Col xs={0} md={6} className="d-md-block d-none borderRight" key={index}>
 
                             </Col>
@@ -45,12 +45,12 @@ function RoadmapComponent({ data }) {
                                     <ScrollAnimation animateIn='fadeIn'> <p className="roadMapDesc mt-4 text-white mx-4 pl-2">{data.description}</p></ScrollAnimation>
                                 </div>
                             </Col>
-                        </div>
+                            </Row>
                     }
 
                 })}
 
-            </Row>
+         
         </Container>
     </div>;
 }

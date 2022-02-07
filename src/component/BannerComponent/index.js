@@ -12,39 +12,38 @@ const Banner = ({ data }) => {
     return (
         <div className='bansection' style={{ backgroundImage: `url(${Cover})`, }}>
             <Container>
-                <Row>
+                
                     {data?.map((data, index) => {
-                        return <div key={index}>
-                            <Col  lg={data.description ? 6 : null} md={data.description ? 6 : null}>
+                        return(<Row key={index}>
+                            <Col key={index} lg={data.description ? 6 : null} md={data.description ? 6 : null}>
                                 <div className='leftbanerservtion'>
-                                 {data.description?<h1 className='bheading'>{data?.title}</h1>:
-                                 <h1 className="b_heading">{data?.title}</h1>}   
+                                    {data.description ? <h1 className='bheading'>{data?.title}</h1> :
+                                        <h1 className="b_heading">{data?.title}</h1>}
                                     <p className='bparagraph'>{data?.description}</p>
                                 </div>
-
-
                             </Col>
                             {data.image ?
                                 <Col lg={6} md={6}>
                                     <div className='rightbanersection' >
-                                    <ScrollAnimation animateIn='flipInY'
-                                                duration={5}
-                                            >
-                                        <div className='bannerImgdiv' >
-                                            
+                                        <ScrollAnimation animateIn='flipInY'
+                                            duration={5}
+                                        >
+                                            <div className='bannerImgdiv' >
+
                                                 <Image className='bannerImg'
                                                     src={data?.image}
 
                                                 />
-                                            
 
-                                        </div>
+
+                                            </div>
                                         </ScrollAnimation>
                                     </div>
                                 </Col> : null}
 
 
-                        </div>
+                                </Row>
+                        )
                     })}
                     {/* <Col lg={6} md={12}>
                         <div className='leftbanerservtion'>
@@ -68,7 +67,7 @@ const Banner = ({ data }) => {
                         </div>
                     </Col> */}
 
-                </Row>
+               
 
 
             </Container>
