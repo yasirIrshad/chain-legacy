@@ -17,7 +17,8 @@ const HeaderComponent = () => {
         <Navbar className='bakcolor' expand="lg">
             <Container>
                 <Link to="/"><img src={logo} /></Link>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className="navToggleBtn" aria-controls="basic-navbar-nav" />
+               
                 <Navbar.Collapse className='justify-content-center ' id="basic-navbar-nav " >
                     <div className='beforeclas'>
                         <Nav className='Navsec1'  >

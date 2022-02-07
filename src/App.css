@@ -224,6 +224,10 @@ body{
   justify-content: end;
   border-bottom: 1px solid #6adaff;
 }
+.navToggleBtn
+{
+  background-color:#6adaff !important;
+}
 
 /* .beforeclas::after {
     content: "";
@@ -489,6 +493,22 @@ body{
    background-color: #020e74;
     z-index: 99999;
 }
+.mintbutt {
+  width: 90px;
+  height: 35px;
+  font-size: 14px;
+  
+}
+.icons {
+ 
+  width: 35px;
+  height: 35px;
+}
+.iconCircle svg{
+  
+  font-size: 16px;
+  
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -524,6 +544,7 @@ body{
     padding-top: 10rem;
 
   }
+
 }
 
 @media screen and (max-width: 590px) {

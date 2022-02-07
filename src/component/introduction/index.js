@@ -24,7 +24,7 @@ const Introduction = () => {
 
                         <div className='introrightsection'>
                             <ScrollAnimation animateIn='bounceInRight' duration={3} >
-                                <h1 className='Iheading'>Introduction</h1>
+                                <h1 className='Iheading text-sm-center'>Introduction</h1>
                                 <p className='Iparagraph'>Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art.</p>
                             </ScrollAnimation>
                         </div>
@@ -35,7 +35,7 @@ const Introduction = () => {
                     <Col lg={6}>
                         <div className='introlefttsection2'>
 
-                            <h1 className='focusheading'>Why Chain Legacy?</h1>
+                            <h1 className='focusheading text-sm-center'>Why Chain Legacy?</h1>
 
 
                         </div>

@@ -9,7 +9,7 @@ function AccordionComponent({ data }) {
             <Accordion  >
            
                 {data?.map((data, index) => {
-                    return  <ScrollAnimation key={index} animateIn='bounceInUp' duration={2}>
+                    return  <ScrollAnimation key={index} animateIn='fadeIn' duration={3}>
                     <Accordion.Item eventKey={index} className="bg-transparent mb-4 border-0" >
                         <Accordion.Header className="accordionHeader text-uppercase">
                            
