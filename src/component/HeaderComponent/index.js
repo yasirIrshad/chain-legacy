@@ -16,7 +16,7 @@ const HeaderComponent = () => {
 
         <Navbar className='bakcolor' expand="lg">
             <Container>
-                <Link to="/"><Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand></Link>
+                <Link to="/"><img src={logo} /></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className='justify-content-center ' id="basic-navbar-nav " >
                     <div className='beforeclas'>
@@ -27,9 +27,11 @@ const HeaderComponent = () => {
 
                         </Nav>
                         <Nav className='Navsec2'>
-                            <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
-                            <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
-                            <Button className='mintbutt'>Mint</Button>
+                            <div className='d-flex w-100 justify-content-around'> <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
+                                <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
+                            </div>
+
+                            <div className='mintbutt btn btn-outline-primary'>Mint</div>
                         </Nav>
 
                     </div>

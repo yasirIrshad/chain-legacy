@@ -10,7 +10,8 @@ function RoadmapComponent({ data }) {
             <Row>
                 {data.map((data, index) => {
                     if (index % 2 == 0) {
-                        return <><Col xs={12} md={6} className="borderRight">
+                        return <div key={index}>
+                        <Col xs={12} md={6} className="borderRight">
                             <div className="borderBottom mx-3" >
                                 <h6 className="text-info">{data.date}</h6>
                                 <ScrollAnimation animateIn='fadeIn'>    <h5 className="text-white text-uppercase">"{data.title}"</h5></ScrollAnimation>
@@ -19,17 +20,17 @@ function RoadmapComponent({ data }) {
                                 <div className="d-flex justify-content-center align-items-center my-4 m-md-0 boxEven boxSquare">
                                     <div className="boxText">0{index + 1}</div>
                                 </div>
-                                <ScrollAnimation animateIn='fadeIn'>      <p className="roadMapDesc text-white">{data.description}</p></ScrollAnimation>
+                                <ScrollAnimation animateIn='fadeIn'>      <p className="roadMapDesc mt-4 text-white">{data.description}</p></ScrollAnimation>
                             </div>
                         </Col>
                             <Col xs={0} md={6} className="d-md-block d-none">
 
                             </Col>
-                        </>
+                        </div>
                     }
                     else {
-                        return <>
-                            <Col xs={0} md={6} className="d-md-block d-none borderRight">
+                        return <div key={index}>
+                            <Col xs={0} md={6} className="d-md-block d-none borderRight" key={index}>
 
                             </Col>
                             <Col xs={12} md={6}  >
@@ -41,10 +42,10 @@ function RoadmapComponent({ data }) {
                                     <div className="d-flex justify-content-center align-items-center my-4 m-md-0 boxOdd boxSquare">
                                         <div className="boxText">0{index + 1}</div>
                                     </div>
-                                    <ScrollAnimation animateIn='fadeIn'> <p className="roadMapDesc text-white mx-4 pl-2">{data.description}</p></ScrollAnimation>
+                                    <ScrollAnimation animateIn='fadeIn'> <p className="roadMapDesc mt-4 text-white mx-4 pl-2">{data.description}</p></ScrollAnimation>
                                 </div>
                             </Col>
-                        </>
+                        </div>
                     }
 
                 })}

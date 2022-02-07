@@ -4,8 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
+  font-weight: bolder;
 }
-
+body{
+  overflow-x: hidden;
+}
 /* RoadMap Styling */
 .roadMaoContainer {
   background: #001233;
@@ -128,19 +131,12 @@
 }
 
 .ankrtext {
-  color: white !important;
+  color: white ;
   font-size: 18px !important;
   font-family: 'Orbitron';
 }
-
-.icons {
-  background-color: #6ADAFF;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 100%;
+.ankrtext:hover{
+  color: #6ADAFF;
 }
 
 .mintbutt {
@@ -172,13 +168,10 @@
 .bakcolor {
   position: absolute;
   width: 100%;
+  margin: 28px 0 0 0;
 }
 
-.ankrtext {
-  color: white !important;
-  font-size: 18px !important;
-  font-family: 'Orbitron';
-}
+
 
 .icons {
   background-color: #6ADAFF;
@@ -296,13 +289,17 @@
   font-family: Orbitron;
   margin-bottom: 38px;
 }
+.b_heading{
+  font-size: 69px;
+  color: #FFFFFF;
+}
 
 .bparagraph {
   font-size: 16px;
   color: white;
   font-family: "poppins";
   line-height: 25px;
-  padding: 0 0 0 69px;
+  padding: 0 0 0 109px;
 }
 
 /* introductionsection */
@@ -488,6 +485,10 @@
     justify-content: center;
     margin: 0;
   }
+  .navbar-collapse {
+   background-color: #020e74;
+    z-index: 99999;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -536,11 +537,15 @@
   }
 
   .imgdiv {
-    margin: 0 0 20px 35px;
+    margin: 0 0 20px 0;
     width: 200px;
   }
   .imgdiv1 {
     width: 200px;
+  }
+  .b_heading{
+    font-size: 45px;
+    color: #FFFFFF;
   }
 }
 
@@ -552,7 +557,10 @@
   .footer-image-container {
     width: 250px;
   }
-
+  .b_heading{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
   
 
 }

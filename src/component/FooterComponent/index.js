@@ -25,7 +25,7 @@ const FooterComponent = () => {
                 <div className="d-flex justify-content-center footerNavBorder">
                     <ul className="list-unstyled d-flex justify-content-between flex-sm-row flex-column flex-wrap mt-4 mb-5">
                         <Link className="text-decoration-none" to="/intro"> <li className="footerLinks">Introduction</li></Link>
-                        <Link className="text-decoration-none" to="/roadmap"> <li className="footerLinks mx-0 mx-sm-5">Roadmap</li></Link>
+                        <Link className="text-decoration-none my-2 my-sm-0" to="/roadmap"> <li className="footerLinks mx-0 mx-sm-5">Roadmap</li></Link>
                         <Link className="text-decoration-none" to="/faq"><li className="footerLinks">FAQ</li></Link>
                     </ul>
                 </div>

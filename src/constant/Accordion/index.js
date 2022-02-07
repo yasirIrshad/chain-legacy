@@ -1,6 +1,6 @@
 export const accordionInfo = [
     {
-        title: "what is an nft",
+        title: "WHAT IS AN NFT",
         description: "NFT stands for 'non-fungible token'. An NFT is basically data that is accounted for in a digital ledger, that data represents something specific and unique. An NFT can, for example, represent a unique Chain Legacy piece of art ."
     },
     {

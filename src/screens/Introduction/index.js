@@ -34,7 +34,7 @@ const Introductionpage = () => {
 
                         {
                             imagloop.map((data, index) => {
-                                return <div className='imgdiv'>
+                                return <div key={index} className='imgdiv'>
                                     <Image className='img-fluid' src={data.image} />
                                 </div>
 
@@ -68,7 +68,7 @@ const Introductionpage = () => {
                     </Row>
 
                 </Container>
-                <  FooterComponent />
+                <FooterComponent />
 
 
 

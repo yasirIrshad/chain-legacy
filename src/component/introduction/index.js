@@ -10,7 +10,7 @@ const Introduction = () => {
                 <Row>
                     <Col lg={6}>
                         <div className='introleftsection'>
-                            < ScrollAnimation animateIn='bounceInLeft' duration={3}  >
+                            <ScrollAnimation animateIn='bounceInLeft' duration={3}  >
                                 <Image
                                     src={trio}
                                 />
@@ -23,7 +23,7 @@ const Introduction = () => {
                     <Col lg={6}>
 
                         <div className='introrightsection'>
-                            < ScrollAnimation animateIn='bounceInRight' duration={3} >
+                            <ScrollAnimation animateIn='bounceInRight' duration={3} >
                                 <h1 className='Iheading'>Introduction</h1>
                                 <p className='Iparagraph'>Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art.</p>
                             </ScrollAnimation>
@@ -31,7 +31,7 @@ const Introduction = () => {
 
                     </Col>
                 </Row>
-                <Row class="intrRow">
+                <Row className="intrRow">
                     <Col lg={6}>
                         <div className='introlefttsection2'>
 

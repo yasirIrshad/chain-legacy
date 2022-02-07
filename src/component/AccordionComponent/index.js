@@ -7,20 +7,21 @@ function AccordionComponent({ data }) {
     return <div className="container-fluid d-flex justify-content-center py-5">
         <div className="w-75 mb-5">
             <Accordion  >
+           
                 {data?.map((data, index) => {
-                    return <Accordion.Item eventKey={index} className="bg-transparent mb-4 border-0" >
-                        <Accordion.Header className="accordionHeader">
-                            <ScrollAnimation animateIn='bounceInRight'
-                            >
+                    return  <ScrollAnimation key={index} animateIn='bounceInUp' duration={2}>
+                    <Accordion.Item eventKey={index} className="bg-transparent mb-4 border-0" >
+                        <Accordion.Header className="accordionHeader text-uppercase">
+                           
                                 {data?.title}
-                            </ScrollAnimation>
+                        
                         </Accordion.Header>
                         <Accordion.Body className="text-white text-center description px-5">
                             {data?.description}
                         </Accordion.Body>
-                    </Accordion.Item>
+                    </Accordion.Item> </ScrollAnimation> 
                 })}
-            </Accordion>
+                  </Accordion>
         </div>
     </div>
 }

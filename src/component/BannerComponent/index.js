@@ -14,10 +14,11 @@ const Banner = ({ data }) => {
             <Container>
                 <Row>
                     {data?.map((data, index) => {
-                        return <>
-                            <Col lg={data.description ? 6 : null} md={data.description ? 6 : null}>
+                        return <div key={index}>
+                            <Col  lg={data.description ? 6 : null} md={data.description ? 6 : null}>
                                 <div className='leftbanerservtion'>
-                                    <h1 className='bheading'>{data?.title}</h1>
+                                 {data.description?<h1 className='bheading'>{data?.title}</h1>:
+                                 <h1 className="b_heading">{data?.title}</h1>}   
                                     <p className='bparagraph'>{data?.description}</p>
                                 </div>
 
@@ -43,7 +44,7 @@ const Banner = ({ data }) => {
                                 </Col> : null}
 
 
-                        </>
+                        </div>
                     })}
                     {/* <Col lg={6} md={12}>
                         <div className='leftbanerservtion'>
