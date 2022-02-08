@@ -33,7 +33,7 @@ const Introduction = () => {
                 </Row>
                 <Row className="intrRow">
                     <Col lg={6}>
-                        <div className='introlefttsection2'>
+                        <div>
 
                             <h1 className='focusheading text-sm-center'>Why Chain Legacy?</h1>
 

@@ -8,7 +8,6 @@ import {
     faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
-import '../../App.css';
 const HeaderComponent = () => {
     return (
 
