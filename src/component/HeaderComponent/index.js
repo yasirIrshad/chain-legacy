@@ -15,7 +15,7 @@ const HeaderComponent = () => {
 
         <Navbar className='bakcolor' expand="lg">
             <Container>
-                <Link to="/"><img src={logo} /></Link>
+                <Link to="/"><img src={logo} className="navlogo"/></Link>
                 <Navbar.Toggle className="navToggleBtn" aria-controls="basic-navbar-nav" />
                
                 <Navbar.Collapse className='justify-content-center ' id="basic-navbar-nav " >
@@ -27,8 +27,8 @@ const HeaderComponent = () => {
 
                         </Nav>
                         <Nav className='Navsec2'>
-                            <div className='d-flex w-100 justify-content-around'> <Nav.Link href="#home" ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
-                                <Nav.Link href="#link" > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
+                            <div className='d-flex w-100 justify-content-around'> <Nav.Link  ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
+                                <Nav.Link > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
                             </div>
 
                             <div className='mintbutt btn btn-outline-primary'>Mint</div>

@@ -7,11 +7,11 @@ const Introduction = () => {
     return (
         <div className='introduction'>
             <Container>
-                <Row>
+                <Row className="mb-5 mb-sm-0">
                     <Col lg={6}>
                         <div className='introleftsection'>
-                            <ScrollAnimation animateIn='bounceInLeft' duration={3}  >
-                                <Image
+                            <ScrollAnimation animateIn='bounceInLeft' duration={4}>
+                                <Image className='w-100'
                                     src={trio}
                                 />
                             </ScrollAnimation>
@@ -23,19 +23,19 @@ const Introduction = () => {
                     <Col lg={6}>
 
                         <div className='introrightsection'>
-                            <ScrollAnimation animateIn='bounceInRight' duration={3} >
-                                <h1 className='Iheading text-sm-center'>Introduction</h1>
+                            <ScrollAnimation animateIn='bounceInRight' duration={2} >
+                                <h1 className='Iheading text-center'>Introduction</h1>
                                 <p className='Iparagraph'>Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art.</p>
                             </ScrollAnimation>
                         </div>
 
                     </Col>
                 </Row>
-                <Row className="intrRow">
+                <Row className="intrRow mt-5 mt-sm-0">
                     <Col lg={6}>
                         <div>
 
-                            <h1 className='focusheading text-sm-center'>Why Chain Legacy?</h1>
+                            <h1 className='focusheading mt-3 text-center'>Why Chain Legacy?</h1>
 
 
                         </div>

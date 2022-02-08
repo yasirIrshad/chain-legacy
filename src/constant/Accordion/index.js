@@ -13,7 +13,7 @@ export const accordionInfo = [
     },
     {
         title: "HOW MANY ACTS THERE ARE IN TOTAL?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "Chain Legacy has 4 Acts:1. WEB 2.0 Graveyard 2. Elysian Nexus 3. Illusion of time 4. Generative collection."
     },
     {
         title: "HOW MANY CHAIN LEGACY NFTs CAN I MINT?",

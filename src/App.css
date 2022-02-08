@@ -13,7 +13,7 @@ body{
 .roadMaoContainer {
   background: #001233;
   padding-top: 182px;
-  border-top: 1px solid #001233;
+ 
 }
 
 .borderRight {
@@ -303,7 +303,7 @@ body{
   color: white;
   font-family: "poppins";
   line-height: 25px;
-  padding: 0 0 0 109px;
+  padding: 0 0 0 60px;
 }
 
 /* introductionsection */
@@ -314,7 +314,7 @@ body{
 .Iheading {
   font-size: 46px;
   font-weight: bold;
-  line-height: 65px;
+
   color: #FFFFFF;
   font-family: Orbitron;
   margin-bottom: 21px;
@@ -326,6 +326,7 @@ body{
   color: white;
   font-family: "poppins";
   line-height: 25px;
+  
 
 }
 
@@ -352,7 +353,7 @@ body{
 .focusheading {
   font-size: 46px;
   font-weight: bold;
-  line-height: 65px;
+
   color: #FFFFFF;
   font-family: Orbitron;
 
@@ -447,20 +448,6 @@ body{
   color: white;
 }
 
-@media screen and (max-width: 768px) {
-  .boxEven {
-    top: -51px;
-  }
-
-  .boxOdd {
-    top: -51px;
-  }
-
-  .borderRight {
-    border-right: none;
-  }
-}
-
 @media screen and (max-width: 992px) {
   .beforeclas {
     flex-direction: column;
@@ -509,45 +496,51 @@ body{
   font-size: 16px;
   
 }
+.bannerImgdiv {
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
+
+.bannerImg {
+  width: 75%;
+}
+
+.introrightsection {
+  margin: 50px 0 0 0;
+}
+
+.introlefttsection2 {
+  margin: 50px 0 0 0;
+}
+
+.introRighttsection2 {
+  margin-top: 25px;
+}
+
+.roadMaoContainer {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.containerFAQ {
+  padding-top: 10rem;
+
+}
+}
+
 
 @media screen and (max-width: 767px) {
-  .bannerImgdiv {
-
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  .borderRight {
+    border-right: none ;
   }
-
-  .bannerImg {
-    width: 75%;
+  .boxEven {
+    top: -51px;
   }
-
-  .introrightsection {
-    margin: 50px 0 0 0;
+  .boxOdd {
+    top: -51px ;
   }
-
-  .introlefttsection2 {
-    margin: 50px 0 0 0;
-  }
-
-  .introRighttsection2 {
-    margin-top: 25px;
-  }
-
-  .roadMaoContainer {
-    padding-top: 60px;
-    padding-bottom: 0;
-  }
-
-  .containerFAQ {
-    padding-top: 10rem;
-
-  }
-
-}
-
-@media screen and (max-width: 590px) {
   .introleftsection img {
     width: 300px;
   }
@@ -569,6 +562,9 @@ body{
     color: #FFFFFF;
   }
 }
+/* @media screen and (max-width: 590px) {
+  
+} */
 
 @media screen and (max-width: 365px) {
   .introleftsection img {
@@ -582,6 +578,12 @@ body{
     font-size: 30px;
     color: #FFFFFF;
   }
-  
+  h1{
+    font-size: 2rem !important;
+  }
+  .navlogo
+  {
+    width: 65%;
+  }
 
 }
