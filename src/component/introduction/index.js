@@ -7,11 +7,11 @@ const Introduction = () => {
     return (
         <div className='introduction'>
             <Container>
-                <Row className="mb-5 mb-sm-0">
+                <Row>
                     <Col lg={6}>
                         <div className='introleftsection'>
                             <ScrollAnimation animateIn='bounceInLeft' duration={4}>
-                                <Image className='w-100'
+                                <Image 
                                     src={trio}
                                 />
                             </ScrollAnimation>
@@ -31,7 +31,7 @@ const Introduction = () => {
 
                     </Col>
                 </Row>
-                <Row className="intrRow mt-5 mt-sm-0">
+                <Row className="intrRow">
                     <Col lg={6}>
                         <div>
 

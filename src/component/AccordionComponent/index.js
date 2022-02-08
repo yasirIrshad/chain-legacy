@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 function AccordionComponent({ data }) {
 
-    return <div className="container-fluid d-flex justify-content-center py-5">
+    return <div className="container d-flex justify-content-center py-5">
         <div className="w-75 mb-5">
             <Accordion  >
            
