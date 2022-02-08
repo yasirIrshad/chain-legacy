@@ -52,6 +52,6 @@ export const roadMap = [
     {
         date: "2022 - June",
         title: "The generative collection",
-        description: "If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding for more than 2 months will receive for free and before any announcement to the public - 1 NFT from the 10k Generative collection! To show appreciation for our community even further, we have quite a surprise! We will drop a second piece of art directly to the buyer wallet."
+        description: "If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding for more than 2 months will receive for free and before any announcement to the public - 1 NFT from the 10k Generative collection."
     }
 ];
