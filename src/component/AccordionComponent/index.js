@@ -16,7 +16,7 @@ function AccordionComponent({ data }) {
                                 {data?.title}
                         
                         </Accordion.Header>
-                        <Accordion.Body className="text-white text-center description px-5">
+                        <Accordion.Body className="text-white  description px-5">
                             {data?.description}
                         </Accordion.Body>
                     </Accordion.Item> </ScrollAnimation> 

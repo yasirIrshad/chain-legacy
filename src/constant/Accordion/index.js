@@ -1,35 +1,39 @@
 export const accordionInfo = [
     {
-        title: "WHAT IS AN NFT",
-        description: "NFT stands for 'non-fungible token'. An NFT is basically data that is accounted for in a digital ledger, that data represents something specific and unique. An NFT can, for example, represent a unique Chain Legacy piece of art ."
+        title: "WHAT IS CHAIN LEGACY?",
+        description: "Chain Legacy is a collection of 3D NFT cards for the Internet-Scale blockchain Elrond Network. Our goal is to bring our concept and amazing design to your wallet with a high-quality piece of art."
+    },
+    {
+        title: "WHAT IS AN NFT?",
+        description: "NFT stands for 'non-fungible token. An NFT is basically data that is accounted for in a digital ledger, and that data represents something specific and unique. An NFT can, for example, represent a unique piece of art or a game token."
     },
     {
         title: "WHERE CAN I VIEW MY NFTs?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "Once minted, simply connect to your Elrond wallet (Maiar app, Web wallet, Maiar DeFi extension) to view your NFTs."
     },
     {
-        title: "WHAT IS THE TOTAL SUPPLY OF CHAIN LEGACY?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        title: "WHAT IS THE TOTAL SUPPLY?",
+        description: "A total of 1,000 NFTs will be minted for the first 3 Acts. 10.000 unique NFTs will be available for Act 4."
     },
     {
-        title: "HOW MANY ACTS THERE ARE IN TOTAL?",
-        description: "Chain Legacy has 4 Acts:1. WEB 2.0 Graveyard 2. Elysian Nexus 3. Illusion of time 4. Generative collection."
+        title: "HOW MANY ACTS THERE ARE?",
+        description: <div>Chain Legacy has 4 Acts:<br></br>1. WEB 2.0 Graveyard<br></br>2. Elysian Nexus<br></br>3. Illusion of time<br></br>4. Generative collection</div>   
     },
     {
         title: "HOW MANY CHAIN LEGACY NFTs CAN I MINT?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "You can only mint 1 NFT from the Genesis collection. However, there’s a maximum of 10 NFTs per wallet for the 10k Generative collection."
     },
     {
         title: "HOW MUCH DOES IT COST TO MINT?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "The minting price per NFT is 0.25 EGLD."
     },
     {
         title: "HOW DO I GET ONTO THE WHITELIST PRESALE?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "There’s no whitelist for the genesis collection. However, if you own all 3 Acts you will be whitelisted for ACT 4 - the 10k generative collection + you will get one free NFT."
     },
     {
         title: "WHY ELROND?",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea"
+        description: "The Elrond ecosystem is constantly growing and more and more projects are being built on the blockchain. Elrond is one of the next-gen blockchains that aim to solve the scalability trilemma with which Ethereum has struggled. Blockchain and cryptocurrency are a long-time game, and we are here to join our hands in the journey of acquiring Elrond’s next 1 billion users."
     }
 ];
 
