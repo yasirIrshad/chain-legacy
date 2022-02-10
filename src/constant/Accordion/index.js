@@ -39,23 +39,26 @@ export const accordionInfo = [
 
 export const roadMap = [
     {
-        date: "2022 - March",
+        date: "Q1 2022 - March",
         title: "RIP WEB 2.0",
         description: "The release of the first Act from the Genesis collection with 1,000 available spots. Maximum 1 NFT per wallet is allowed for those who want to be whitelisted for future releases. Spaces will be extremely limited. With any presale purchase we will also airdrop 1 free Chain Legacy Twitter banner NFT. More so, holders of the genesis collection will have the opportunity to unlock exclusive gifts released when Elrond will reach a new ATH! For further details join the discord channel."
     },
     {
-        date: "2022 - April",
+        date: "Q2 2022 - April",
         title: "Town-hall meeting",
-        description: "The release of the second Act from the genesis collection. 1,000 available spots & Maximum 1 NFT per wallet. In this phase we focus on community growth."
+        description: "The release of the third Act from the genesis collection.1,000 available spots & maximum 1 NFT per wallet.More community growth, giveaways and collaborations with other NFT projects!The flourishing of our valued community is what drives the entire movement."
     },
     {
-        date: "2022 - May",
+        date: "Q3 2022 - May",
         title: "The Elysian Nexus",
-        description: "The release of the third Act from the genesis collection. 1,000 available spots & Maximum 1 NFT per wallet. More community growth, giveaways and collaborations with other NFT projects! The flourishing of our valued community is what drives the entire movement."
+        description: <p>The release of the third Act from the genesis collection. 1,000 available spots & Maximum 1 NFT per wallet. More community growth, giveaways and collaborations with other NFT projects!<br/>
+        The flourishing of our valued community is what drives the entire movement.</p>
     },
     {
-        date: "2022 - June",
-        title: "The generative collection",
-        description: "If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding for more than 2 months will receive for free and before any announcement to the public - 1 NFT from the 10k Generative collection."
+        date: "Q4 2022 -June",
+        title: "The Grim Reaper",
+        description: <p>If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding all 3 Acts will receive before any announcement to the public - whitelist to the 3k Generative collection!
+<br/><br/>
+        To show appreciation for our community even further, we have quite a surprise! If you own at least 1 Chain Legacy NFT you will be able to invest in the $LEGACY token with a 15% discount!</p>
     }
 ];

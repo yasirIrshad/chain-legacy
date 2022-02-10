@@ -57,7 +57,11 @@ h1,h5{
   transform: rotate(-45deg);
   font-family: 'Orbitron';
 }
-
+.roadMapDate
+{
+  font-family: 'Orbitron';
+  color: #6ADAFF;
+}
 .roadMapDesc {
   font-family: 'Poppins', sans-serif;
 }

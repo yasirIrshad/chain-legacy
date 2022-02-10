@@ -13,7 +13,7 @@ function RoadmapComponent({ data }) {
                         return  <Row key={index}>
                         <Col xs={12} md={6} className="borderRight">
                             <div className="borderBottom mx-3" >
-                                <h6 className="text-info">{data.date}</h6>
+                                <h6 className="roadMapDate">{data.date}</h6>
                                 <ScrollAnimation animateIn='fadeIn'>    <h5 className="text-white text-uppercase">"{data.title}"</h5></ScrollAnimation>
                             </div>
                             <div className="p-3 position-relative" >
@@ -35,7 +35,7 @@ function RoadmapComponent({ data }) {
                             </Col>
                             <Col xs={12} md={6}  >
                                 <div className="px-5 borderBottom">
-                                    <h6 className="text-info">{data.date}</h6>
+                                    <h6 className="roadMapDate">{data.date}</h6>
                                     <ScrollAnimation animateIn='fadeIn'> <h5 className="text-white text-uppercase">"{data.title}"</h5></ScrollAnimation>
                                 </div>
                                 <div className="p-3 position-relative" >
