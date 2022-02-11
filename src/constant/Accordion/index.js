@@ -5,35 +5,42 @@ export const accordionInfo = [
     },
     {
         title: "WHAT IS AN NFT?",
-        description: "NFT stands for 'non-fungible token. An NFT is basically data that is accounted for in a digital ledger, and that data represents something specific and unique. An NFT can, for example, represent a unique piece of art or a game token."
+        description: "NFT stands for 'non-fungible token'. An NFT is basically data that is accounted for in a digital ledger, that data represents something specific and unique. An NFT can, for example, represent a unique Chain Legacy piece of art ."
     },
     {
         title: "WHERE CAN I VIEW MY NFTs?",
         description: "Once minted, simply connect to your Elrond wallet (Maiar app, Web wallet, Maiar DeFi extension) to view your NFTs."
     },
     {
-        title: "WHAT IS THE TOTAL SUPPLY?",
-        description: "A total of 1,000 NFTs will be minted for the first 3 Acts. 10.000 unique NFTs will be available for Act 4."
+        title: "WHAT IS THE TOTAL SUPPLY OF CHAIN LEGACY?",
+        description: "A total of 1,000 NFTs will be minted for the first 3 Acts (3.000 in total). An additional of 3.000 unique NFTs will be available for the generative collection “The Grim Reaper”."
     },
     {
-        title: "HOW MANY ACTS THERE ARE?",
-        description: <div>Chain Legacy has 4 Acts:<br></br>1. WEB 2.0 Graveyard<br></br>2. Elysian Nexus<br></br>3. Illusion of time<br></br>4. Generative collection</div>   
+        title: "HOW MANY ACTS THERE ARE IN TOTAL?",
+        description: <div>Chain Legacy has 4 Acts:<br></br>1.RIP WEB 2.0<br></br>2. Town hall meeting
+        <br></br>3. The Elysian Nexus
+<br></br>4. The Generative collection
+</div>   
     },
     {
         title: "HOW MANY CHAIN LEGACY NFTs CAN I MINT?",
-        description: "You can only mint 1 NFT from the Genesis collection. However, there’s a maximum of 10 NFTs per wallet for the 10k Generative collection."
+        description: "You can only mint 1 NFT per wallet from the Genesis collection (1 for each Act). However, there’s a maximum of 3 NFTs per wallet for the 3k Generative collection."
     },
     {
         title: "HOW MUCH DOES IT COST TO MINT?",
-        description: "The minting price per NFT is 0.25 EGLD."
+        description: "The minting price per NFT is 0.2 EGLD."
     },
     {
         title: "HOW DO I GET ONTO THE WHITELIST PRESALE?",
-        description: "There’s no whitelist for the genesis collection. However, if you own all 3 Acts you will be whitelisted for ACT 4 - the 10k generative collection + you will get one free NFT."
+        description: "There’s no whitelist for the genesis collection. However, if you own all 3 Acts you will be whitelisted for Act 4 - the 3k generative collection"
+    },
+    {
+        title: "WHAT IS $LEGACY?",
+        description: "The $LEGACY token has a vesting period of 6 months and it will be available to trade on Maiar Exchange. Those who own at least 1 Chain Legacy NFT will be able to invest with a 15% discount. All the capital raised will be stored in the Smart Contract and will go in the liquidity pool. The presale starts in June, after the release of the generative collection."
     },
     {
         title: "WHY ELROND?",
-        description: "The Elrond ecosystem is constantly growing and more and more projects are being built on the blockchain. Elrond is one of the next-gen blockchains that aim to solve the scalability trilemma with which Ethereum has struggled. Blockchain and cryptocurrency are a long-time game, and we are here to join our hands in the journey of acquiring Elrond’s next 1 billion users."
+        description: "The Elrond ecosystem is constantly growing and more and more projects are being built on the blockchain. Every transaction is registered on blockchain to ensure unrivalled security and prove the ownership and origin of each item. All this data can be accessed by anyone through the Elrond Explorer - access here(link 1). You can learn more about NFTs on Elrond here(link 2) Elrond is the best next-gen blockchain that successfully solved the scalability trilemma with which Ethereum has struggled. Blockchain and NFTs are a long-time game, and we are here to join our hands in the journey of acquiring Elrond’s next 1 billion users."
     }
 ];
 
