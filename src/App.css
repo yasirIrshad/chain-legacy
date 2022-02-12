@@ -466,6 +466,26 @@ h1,h5{
   line-height: 25px;
   color: white;
 }
+.testimonialcontent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TestiMonial {
+  width: 100%;
+  background-color: #001233;
+}
+.testName {
+  color: white;
+}
+.testName {
+  color: white;
+}
+.testhead {
+  margin-top: 160px;
+}
 
 @media screen and (max-width: 992px) {
   .beforeclas {
