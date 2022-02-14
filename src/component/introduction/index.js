@@ -44,7 +44,7 @@ const Introduction = () => {
                     <Col lg={6} xs={12}>
                         <div className='introRighttsection2'>
 
-                            <p className='Iparagraph'>Let’s breakdown the two words. Chain comes from the word blockchain and it represents the “where”. The term Legacy means putting a stamp on the future, and making a contribution to future generations. It is our “why”. Displaying our design and artwork on the blockchain for anyone to see is a tremendous opportunity and we’re very excited for that. As humans, we believe that by knowing what our legacy will be allows us to make better use of time and other resources. Chain Legacy intends to continue doing something until it is finished, even if it is difficult or unpleasant. Impatience is not our problem. We're in it for the long haul!</p>
+                            <p className='Iparagraph'>Let’s breakdown the two words.<mark>Chain</mark>  comes from the word blockchain and it represents the “VENUE”. The term <span style={{fontWeight:"bolder"}}>Legacy</span> means putting a stamp on the future, and making a contribution to future generations. It is our “why”. Displaying our design and artwork on the blockchain for anyone to see is a tremendous opportunity and we’re very excited for that. As humans, we believe that by knowing what our legacy will be allows us to make better use of time and other resources. Chain Legacy intends to continue doing something until it is finished, even if it is difficult or unpleasant. Impatience is not our problem. We're in it for the long haul!</p>
 
                         </div>
 

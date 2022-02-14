@@ -40,7 +40,7 @@ const TestiMonial = () => {
                                    />
                                    </div>
                                <h2 className='testName text-center mt-3'>{val.title}</h2>
-                               <h5  className='textDesignation text-center mt-2'>{val.designation}</h5>
+                               <h5  className='textDesignation  text-center mt-2'>{val.designation}</h5>
                         
    
                        </Col>

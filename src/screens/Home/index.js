@@ -14,8 +14,9 @@ const heading = [
     {
 
         title: "Chain Legacy",
-        description: "Chain Legacy is bridging the gap between past, present & future by rendering central characteristics of the Elrond NetWork in an artistic manner",
-        image: bannerimage
+        description: "Chain Legacy is bridging the gap between past, present & future by rendering central characteristics of the Elrond Network in an artistic manner",
+        image: bannerimage,
+        downhead:"Be Legendary !"
     },
 ]
 

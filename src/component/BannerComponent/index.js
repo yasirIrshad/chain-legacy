@@ -20,6 +20,7 @@ const Banner = ({ data }) => {
                                     {data.description ? <h1 className='bheading'>{data?.title}</h1> :
                                         <h1 className="b_heading">{data?.title}</h1>}
                                     <p className='bparagraph'>{data?.description}</p>
+                                    <h2 className='bheadingd'>{data?.downhead}</h2>
                                 </div>
                             </Col>
                             {data.image ?

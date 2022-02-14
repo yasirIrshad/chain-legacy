@@ -307,7 +307,18 @@ h1,h5{
   font-family: Orbitron;
   margin-bottom: 38px;
 }
-
+.bheadingd {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 65px;
+  color: #FFFFFF;
+  font-family: Orbitron;
+  margin-bottom: 38px;
+  
+}
+.textDesignation{
+  color: white;
+}
 .b_heading {
   font-size: 69px;
   color: #FFFFFF;
@@ -319,6 +330,7 @@ h1,h5{
   font-family: "poppins";
   line-height: 25px;
   padding: 0 0 0 60px;
+  font-weight: 900;
 }
 
 /* introductionsection */
@@ -508,6 +520,7 @@ h1,h5{
 
   .bparagraph {
     padding: 0;
+    
   }
 
   .introleftsection {
