@@ -91,9 +91,7 @@ h1,h5{
 
 .description {
   font-family: 'Poppins', sans-serif !important;
-  text-align: justify !important;
 }
-
 /* Footer Styling */
 .footer {
   margin-top: 100px;
@@ -327,7 +325,7 @@ h1,h5{
 .bparagraph {
   font-size: 16px;
   color: white;
-  font-family: "poppins";
+  font-family: "Orbitron";
   line-height: 25px;
   padding: 0 0 0 60px;
   font-weight: 900;

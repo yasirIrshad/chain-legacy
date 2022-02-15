@@ -1,7 +1,7 @@
 export const accordionInfo = [
     {
         title: "WHAT IS CHAIN LEGACY?",
-        description: "Chain Legacy is a collection of 3D NFT cards for the Internet-Scale blockchain Elrond Network. Our goal is to bring our concept and amazing design to your wallet with a high-quality piece of art."
+        description: "Chain Legacy is a collection of 3D NFT cards for the Internet-Scale blockchain Elrond Network. Our goal is to bring our concept and  design to your wallet with a high-quality piece of art."
     },
     {
         title: "WHAT IS AN NFT?",
@@ -36,11 +36,11 @@ export const accordionInfo = [
     },
     {
         title: "WHAT IS $LEGACY?",
-        description: "The $LEGACY token has a vesting period of 6 months and it will be available to trade on Maiar Exchange. Those who own at least 1 Chain Legacy NFT will be able to invest with a 15% discount. All the capital raised will be stored in the Smart Contract and will go in the liquidity pool. The presale starts in June, after the release of the generative collection."
+        description: "$LEGACY is the utility token of our ecosystem. As a protective measure, we decided to add a vesting mechanism (for up to 12 months) that locks the tokens in a smart contract, in order to avoid dumping and potential price manipulation. We plan to list on the Maiar DEX so users can for example be able to swap and create a staking pool. Those who own at least 1 Chain Legacy NFT will be able to invest at a discount. The presale starts in June, after the release of the generative collection. Stay tuned for more details about $LEGACY!"
     },
     {
         title: "WHY ELROND?",
-        description: <p>The Elrond ecosystem is constantly growing and more and more projects are being built on the blockchain. Every transaction is registered on blockchain to ensure unrivalled security and prove the ownership and origin of each item. All this data can be accessed by anyone through the Elrond Explorer - access <a href="https://explorer.elrond.com/">here.</a> You can learn more about NFTs on Elrond <a href="https://docs.elrond.com/developers/nft-tokens/">here </a>Elrond is the best next-gen blockchain that successfully solved the scalability trilemma with which Ethereum has struggled. Blockchain and NFTs are a long-time game, and we are here to join our hands in the journey of acquiring Elrond’s next 1 billion users.</p>
+        description: <p>The Elrond ecosystem is constantly growing and more and more projects are being built on the blockchain. Every transaction is registered on blockchain to ensure unrivalled security and prove the ownership and origin of each item. All this data can be accessed by anyone through the Elrond Explorer - access <a target="_blank" href="https://explorer.elrond.com/">here.</a> You can learn more about NFTs on Elrond <a  target="_blank" href="https://docs.elrond.com/developers/nft-tokens/">here </a>Elrond is the best next-gen blockchain that successfully solved the scalability trilemma with which Ethereum has struggled. Blockchain and NFTs are a long-time game, and we are here to join our hands in the journey of acquiring Elrond’s next 1 billion users.</p>
     }
 ];
 
@@ -53,7 +53,8 @@ export const roadMap = [
     {
         date: "2022 - April",
         title: "Town-hall meeting",
-        description: "The release of the second Act from the genesis collection.1,000 available spots & maximum 1 NFT per wallet.More community growth, giveaways and collaborations with other NFT projects!The flourishing of our valued community is what drives the entire movement."
+        description: <p>The release of the second Act from the genesis collection.<br/>1,000 available spots & maximum 1 NFT per wallet.
+        In this phase we focus on community growth.</p>
     },
     {
         date: "2022 - May",
@@ -64,8 +65,8 @@ export const roadMap = [
     {
         date: "2022 -June",
         title: "The Grim Reaper",
-        description: <p>If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding all 3 Acts will receive before any announcement to the public - whitelist to the 3k Generative collection!
+        description: <p> If you choose an allegiance with Chain Legacy, the ever-spreading rewards will increase before you know it. ALL the diamond hands who are holding all 3 Acts will receive before any announcement to the public - whitelist to the 3k Generative collection!
 <br/><br/>
-To show appreciation for our community even further, we have quite a surprise! If you own all Chain Legacy NFTs from the genesis collection you will be able to invest in the $LEGACY token with a 15% discount!" change to this please when you have the time</p>
+To show appreciation for our community even further, we have quite a surprise! If you own at least 1 Chain Legacy NFT you will be able to invest in the $LEGACY token at a discount!</p>
     }
 ];

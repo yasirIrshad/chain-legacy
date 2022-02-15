@@ -13,8 +13,8 @@ import TestiMonial from '../../component/testimonialsection';
 const heading = [
     {
 
-        title: "Chain Legacy",
-        description: "Chain Legacy is bridging the gap between past, present & future by rendering central characteristics of the Elrond Network in an artistic manner",
+        // title: "Chain Legacy",
+        description: "We're bridging the gap between blockchain and digital art by rendering key aspects of the Elrond Network in an artistic manner",
         image: bannerimage,
         downhead:"Be Legendary !"
     },
