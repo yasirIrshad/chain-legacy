@@ -47,7 +47,7 @@ const Introductionpage = () => {
                 </Container>
                 <Container  className="mb-5 mb-sm-0">
                     <h1 className='introhead text-center'>Introduction</h1>
-                    <p className='intropayra text-center'> Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art.</p>
+                    <p className='intropayra text-center'> Chain Legacy is a collection of Non-fungible-tokens (NFTs) for the Internet-Scale blockchain. Our goal is to enhance the legacy of the Elrond blockchain by creating meaningful and high quality pieces of digital art. </p>
                 </Container>
                 <Container  className="mt-5 mt-sm-0">
                     <Row>
@@ -62,7 +62,7 @@ const Introductionpage = () => {
                         <Col lg={6}>
                             <div className='inmain2'>
                                 <h1 className='introhead2 text-center text-sm-start' >Why Chain Legacy?</h1>
-                                <p className='intropayra2 '> Let’s breakdown the two words. Chain comes from the word blockchain and it represents the “where”. The term Legacy means putting a stamp on the future, and making a contribution to future generations. It is our “why”. Displaying our design and artwork on the blockchain for anyone to see is a tremendous opportunity and we’re very excited for that. As humans, we believe that by knowing what our legacy will be allows us to make better use of time and other resources. Chain Legacy intends to continue doing something until it is finished, even if it is difficult or unpleasant. Impatience is not our problem. We're in it for the long haul!</p>
+                                <p className='intropayra2 '> Let’s breakdown the two words. The term Chain comes from the word blockchain and it represents the venue. The word Legacy means putting a stamp on the future, and making a contribution for upcoming generations. It is our “why”. Displaying our design and artwork on the blockchain for anyone to see is a tremendous opportunity and we’re very excited for that. As humans, we believe that by knowing what our legacy will be allows us to make better use of time and other resources. Chain Legacy intends to continue doing something until it is finished, even if it is difficult or unpleasant. Impatience is not our problem. We're in it for the long haul! " </p>
                             </div>
                         </Col>
                     </Row>

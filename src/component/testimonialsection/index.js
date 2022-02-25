@@ -2,21 +2,26 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import introimage from '../../assets/introimage.png'
-
+import g1 from '../../assets/g1.png'
+import g2 from '../../assets/g2.png'
+import g3 from '../../assets/g3.png'
+import g4 from '../../assets/g4.png'
 const testimonial=[
     {
+        image:g1,
         title:"Chaos Theory",
         designation:"Design & Graphics"
     },
     {
+        image:g2,
         title:"Yasir",
         designation:"Full Stack Developer"
     },
-    {
+    {   image:g3,
         title:"Arthur",
         designation:" Technology & Blockchain"
     },
-    {
+    {   image:g4,
         title:"William",
         designation:"Community & Marketing"
     },
@@ -35,8 +40,8 @@ const TestiMonial = () => {
                        testimonial.map((val,index)=>{
                            return <Col className='teetRow mt-5'key={index} md={3}  sm={6} xs={12}>
                      <div className='w-100'>
-                           <Image width={"100%"}
-                                       src={introimage}
+                           <Image style={{width:"100%",borderRadius:"33px"}} 
+                                       src={val.image}
                                    />
                                    </div>
                                <h2 className='testName text-center mt-3'>{val.title}</h2>
