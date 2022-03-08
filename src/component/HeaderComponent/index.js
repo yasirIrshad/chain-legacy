@@ -1,17 +1,26 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, Button, NavDropdown, Container } from 'react-bootstrap';
+import { Navbar, Nav, Button, NavDropdown, Container,Modal,Form } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faDiscord,
     faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import Login from '../loginModal/loginmodal';
+import SigInUp from '../signup/signup';
+import ForgotPass from '../forgotpassword/forgot';
+
+
+
 const HeaderComponent = () => {
+    const [loginmodalShow, setloginModalShow] = React.useState(false);
+    const [ModalShowSforgot, setModalShowforgot] = React.useState(false);
+    const [ModalShowSignUp, setModalShowSignUp] = React.useState(false);
     return (
 
-
+<>
 
         <Navbar className='bakcolor' expand="lg">
             <Container>
@@ -30,7 +39,7 @@ const HeaderComponent = () => {
                             <div className='d-flex w-100 justify-content-around'> <Nav.Link  ><div className="icons"> <FontAwesomeIcon icon={faDiscord} /></div></Nav.Link>
                                 <Nav.Link > <div className="icons"> <FontAwesomeIcon icon={faTwitter} /> </div></Nav.Link>
                             </div>
-
+                            <div className='mintbutt btn btn-outline-primary' onClick={() => setloginModalShow(true)}>Reg</div>
                             <div className='mintbutt btn btn-outline-primary'>Mint</div>
                         </Nav>
 
@@ -43,8 +52,24 @@ const HeaderComponent = () => {
 
 
 
-
-
+        <Login
+        show={loginmodalShow}
+        onHide={() => setloginModalShow(false)}
+      />
+     <SigInUp
+      show={ModalShowSignUp}
+      onHide={() => setModalShowSignUp(false)}
+     
+     
+     />
+     <ForgotPass
+     show={ModalShowSforgot}
+     onHide={() => setModalShowforgot(false)}
+    
+    />
+      
+    
+</>
 
 
 

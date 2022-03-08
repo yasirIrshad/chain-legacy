@@ -31,7 +31,7 @@ const testimonial=[
 const TestiMonial = () => {
 
     return(
-        <div className='TestiMonial'>
+        <div c>
             <Container >
             
                 <Row  >

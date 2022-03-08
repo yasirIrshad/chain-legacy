@@ -496,6 +496,20 @@ h1,h5{
 .testhead {
   margin-top: 160px;
 }
+.mdal {
+  width: 100%;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem 1rem;
+}
+.fp {
+  margin: 0 0 0 8px;
+}
+.bgmo{
+  background-color: #020e74;
+}
 
 @media screen and (max-width: 992px) {
   .beforeclas {
